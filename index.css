@@ -14,7 +14,7 @@ body {
 /* Main content section */
 
 .main-contact-section {
-  width: 60%;
+  width: 70%;
 }
 
 .main-contact-title {
@@ -62,7 +62,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   padding: 25px;
-  color:  #797979;
+  color:  #fff;
 }
 
 /* My projects section */
@@ -74,7 +74,10 @@ body {
 .my-projects-list {
   list-style: none;
   display: table;
-    margin: 0 auto;
+     margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 28em;
 }
 
 .my-projects-item {
@@ -110,7 +113,7 @@ body {
 
 .my-work-experiense-section {
   margin-bottom: 45px; 
-}
+  }
 
 .my-work-experiense-company {
   color: #fb6d3a;
@@ -149,9 +152,12 @@ body {
   color: #595959;
 }
 
-.my-work-experience-company-block {
-  max-width: 0 15px 0 0;
+.education-section, .my-work-experience-company-block {
+   margin-left: auto;
+    margin-right: auto;
+    width: 25em;
 }
+
 
 .my-work-experiense-first {
   font-style: normal;
@@ -203,13 +209,14 @@ body {
 .sidebar-foto{
  display: block;
     margin-left: auto;
+    width: 380px;
     margin-right: auto;
-    margin-top: 30px;
-    background:  transparent;
+    border-radius: 50%;
 }
 .sidebar-section {
   background: #e3e3e3;
-width: 40%;
+width: 30%;
+margin-right: 100px;
 }
 
 .contacts-section,
