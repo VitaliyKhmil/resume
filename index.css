@@ -26,8 +26,6 @@ body {
   padding: 10px;
   background-color: #1e2939;
   text-align: center;
-  margin-left:150px;
-  margin-right: 150px;
 }
 
 /* About me section */
@@ -38,7 +36,6 @@ body {
   font-size: 22px;
   line-height: 27px;
   color: #e3e3e3;
-  margin: 0;
   text-align: center;
 }
 
@@ -74,10 +71,9 @@ body {
 .my-projects-list {
   list-style: none;
   display: table;
-     margin-left: auto;
-    margin-right: auto;
-    padding: 0;
-    width: 28em;
+  margin: 0;
+    padding-left: 30px;
+    /* width: 28em; */
 }
 
 .my-projects-item {
@@ -155,7 +151,7 @@ body {
 .education-section, .my-work-experience-company-block {
    margin-left: auto;
     margin-right: auto;
-    width: 25em;
+    padding-left: 30px;
 }
 
 
@@ -166,10 +162,11 @@ body {
   line-height: 20px;
   margin: 0 0 10px 0;
 }
-.my-work-experience-time {
+
+.period, .my-work-experience-time {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 15px;
   color: #a8a8a8;
   margin: 0 0 10px 0;
@@ -215,8 +212,7 @@ body {
 }
 .sidebar-section {
   background: #e3e3e3;
-width: 30%;
-margin-right: 100px;
+width: 50%;
 }
 
 .contacts-section,
